@@ -73,6 +73,7 @@ article {
   box-shadow: 10px 10px 5px grey;
   clear: left;
   overflow: visible;
+  line-height: 25px;
 }
 
 section article.header {
