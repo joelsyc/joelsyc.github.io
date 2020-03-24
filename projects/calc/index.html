@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/segment7" type="text/css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/projects/calc/styles/main.css">
+    <title>JS Calculator</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="screen">
+            <span id="display" class="screen__display">Error</span>
+        </div>
+        <div class="keypad">
+
+            <button type="button" id="sqrt" class="keypad__key keypad__key--left">&Sqrt;</button>
+            <button type="button" id="percent" class="keypad__key">%</button>
+            <button type="button" id="clear" class="keypad__key">CE</button>
+            <button type="button" id="reset" class="keypad__key keypad__key--right">AC</button>
+
+            <button type="button" id="memclear" class="keypad__key keypad__key--left">MC</button>
+            <button type="button" id="memrecall" class="keypad__key">MR</button>
+            <button type="button" id="memremove" class="keypad__key">M-</button>
+            <button type="button" id="memadd" class="keypad__key keypad__key--right">M+</button>
+
+            <button type="button" id="num7" class="keypad__key keypad__key--left numeral">7</button>
+            <button type="button" id="num8" class="keypad__key">8</button>
+            <button type="button" id="num9" class="keypad__key">9</button>
+            <button type="button" id="add" class="keypad__key  keypad__key--right">+</button>
+
+            <button type="button" id="num4" class="keypad__key keypad__key--left">4</button>
+            <button type="button" id="num5" class="keypad__key">5</button>
+            <button type="button" id="num6" class="keypad__key">6</button>
+            <button type="button" id="subtract" class="keypad__key keypad__key--right">-</button>
+
+            <button type="button" id="num1" class="keypad__key keypad__key--left">1</button>
+            <button type="button" id="num2" class="keypad__key">2</button>
+            <button type="button" id="num3" class="keypad__key">3</button>
+            <button type="button" id="mult" class="keypad__key keypad__key--right">x</button>
+
+            <button type="button" id="decimal" class="keypad__key keypad__key--left">.</button>
+            <button type="button" id="num0" class="keypad__key">0</button>
+            <button type="button" id="eval" class="keypad__key">=</button>
+            <button type="button" id="divide" class="keypad__key keypad__key--right">/</button>
+
+        </div>
+    </div>
+
+    <script src="./scripts/calc.js"></script>
+</body>
+</html>
