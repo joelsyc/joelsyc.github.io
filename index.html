@@ -1,57 +1,66 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset='UTF-8'/>
-    <title>Joel's Bag of Stuff</title>
-    <link rel="stylesheet" href="./scripts/native.css">
-  </head>
-  <body>
-    <header>
-        <h1>Joel's Bag of Stuff</h1>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/main.css">
+    <title>Joel SYC</title>
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="header__title">Joel SYC</h1>
+        <nav class="navbar">
+            <ul class="navbar__list">
+                <li class="navbar__list__item"><span class="link-hover">></span><a href="#projects">Projects</a></li>
+                <li class="navbar__list__item"><span class="link-hover">></span><a href="#notes">Technical Notes</a>
+                </li>
+                <li class="navbar__list__item"><span class="link-hover">></span><a href="#contact">Contact Info</a></li>
+            </ul>
+        </nav>
     </header>
-    <nav id="topnav">
-      <ul>
-        <li><a href="#news">News</a></li>
-        <li><a href="#proj">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-    <main>
-      <section id="leftcolumn">
-        <article class="header">
-          <h2>Recent Changes</h2>
-        </article>
-        <article class="sticky">
-          <h2>Website V0</h2>
-          <p><em>2020-01-11</em></p>
-          <p>Welcome to the site! I'm acquiring stuff about HTML and CSS to build a landing page. This is one of the victims. Look at that <code>box-shadow</code> and the <code>@media</code> queries for smaller screens. I've known HTML and CSS from a decade ago and I felt the need to refresh my knowledge. There's so much new stuff now and I'm really not the one to follow the news; I'm hoping to change that. </p>
-        </article>
-        <article class="standard">
-          <h1>Naturales divitias dixit parabiles esse, quod parvo esset natura contenta.</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Negat esse eam, inquit, propter se expetendam. Saepe ab Aristotele, a Theophrasto mirabiliter est laudata per se ipsa rerum scientia; Sit hoc ultimum bonorum, quod nunc a me defenditur; Quis est tam dissimile homini. <code>Tu quidem reddes;</code> Duo Reges: constructio interrete. Sed potestne rerum maior esse dissensio? </p>
-          <ul>
-            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Negat esse eam, inquit, propter se expetendam. Saepe ab Aristotele, a Theophrasto mirabiliter est laudata per se ipsa rerum scientia; Sit hoc ultimum bonorum, quod nunc a me defenditur; Quis est tam dissimile homini.</li>
-            <li>heophrasto mirabiliter est laudata per se ipsa rerum scientia; Sit hoc ultimum bonorum, quod nunc a me defenditur; Quis est tam dissimile homini.</li>
-          </ul>
-        </article>
-        <article class="standard">
-          <h1>Naturales divitias dixit parabiles esse, quod parvo esset natura contenta.</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Negat esse eam, inquit, propter se expetendam. Saepe ab Aristotele, a Theophrasto mirabiliter est laudata per se ipsa rerum scientia; Sit hoc ultimum bonorum, quod nunc a me defenditur; Quis est tam dissimile homini. <code>Tu quidem reddes;</code> Duo Reges: constructio interrete. Sed potestne rerum maior esse dissensio? </p>
-          <ul>
-            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Negat esse eam, inquit, propter se expetendam. Saepe ab Aristotele, a Theophrasto mirabiliter est laudata per se ipsa rerum scientia; Sit hoc ultimum bonorum, quod nunc a me defenditur; Quis est tam dissimile homini.</li>
-            <li>heophrasto mirabiliter est laudata per se ipsa rerum scientia; Sit hoc ultimum bonorum, quod nunc a me defenditur; Quis est tam dissimile homini.</li>
-          </ul>
-        </article>
-      </section>
-      <section id="rightcolumn">
-        <article class="widget">
-          <h2>About this Site</h2>
-          <p>This site is a sort of landing page for all of my Github stuff. </p>
-        </article>
-      </section>
+
+    <main class="main">
+        <section id="projects" class="main__section projects">
+            <h2>Projects</h2>
+            <ul>
+                <li>
+                    <p>Project 1</p>
+                </li>
+                <li>
+                    <p>Project 2</p>
+                </li>
+                <li>
+                    <p>Project 3</p>
+                </li>
+            </ul>
+        </section>
+        <section id="notes" class="main__section notes">
+            <h2>Technical Notes</h2>
+            <ul>
+                <li>
+                    <p>Note 1</p>
+                </li>
+                <li>
+                    <p>Note 2</p>
+                </li>
+                <li>
+                    <p>Note 3</p>
+                </li>
+            </ul>
+        </section>
+        <section id="contact" class="main__section contact">
+            <h2>Contact Me</h2>
+        </section>
+
     </main>
-    <footer>
-      <p>This page is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>. <img src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" alt=""> </p>
+    <footer class="footer">
+        <hr />
+        <p class="footer__text">Creative Commons Share Alike No Derivs</p>
     </footer>
-  </body>
+
+
+</body>
+
 </html>
