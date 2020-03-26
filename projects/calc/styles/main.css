@@ -5,19 +5,29 @@
 }
 
 .wrapper {
-  background-color: var(--surface-color);
-  border: 1px solid var(--outline-color);
-  border-radius: 0.5rem;
-  padding: 0.5rem;
+  background: #F2F2F2;
+  border-radius: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  width: 303px;
 }
 
 .screen {
-  background-color: var(--screen-color);
-  border: 1px solid var(--outline-color);
-  border-radius: 0.25rem;
-  padding: 0.25rem;
-  height: 2rem;
-  margin: 1rem 1rem;
+  background: #85856B;
+  -webkit-box-shadow: -2px -2px 1px #ffffff4a, 2px 2px 4px #ffffff7f, inset 3px 3px 3px #0000007f, inset -2px -2px 3px #0000007f;
+          box-shadow: -2px -2px 1px #ffffff4a, 2px 2px 4px #ffffff7f, inset 3px 3px 3px #0000007f, inset -2px -2px 3px #0000007f;
+  border-radius: 5px;
+  height: 70px;
+  width: 238px;
+  margin: 45px 35px 0 35px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -36,21 +46,33 @@
   font-size: 1.5rem;
 }
 
+.solar {
+  background: linear-gradient(91.54deg, #170D0B -1.17%, #3F281A 102.71%);
+  border-radius: 2px;
+  width: 88px;
+  height: 24px;
+  margin: 32px 21px 0 184px;
+}
+
 .keypad {
-  margin: 1rem;
+  margin: 21px 28px 52px 28px;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr 1fr 1fr 1fr;
-      grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-gap: 0.5rem;
+  -ms-grid-columns: 53px 53px 53px 53px;
+      grid-template-columns: 53px 53px 53px 53px;
+  grid-gap: 11px;
 }
 
 .keypad__key {
   font-family: 'Roboto', sans-serif;
   font-size: 1rem;
-  color: #fafafa;
-  background-color: var(--surface-color);
-  border: 1px solid var(--outline-color);
-  border-radius: 0.25rem;
-  padding: 0.25rem;
+  font-weight: normal;
+  color: #B3D0E5;
+  background: #F2F2F2;
+  -webkit-box-shadow: 0px 0px 6px #00000033;
+          box-shadow: 0px 0px 6px #00000033;
+  border-radius: 6px;
+  border: 0;
+  width: 53px;
+  height: 37.5px;
 }
