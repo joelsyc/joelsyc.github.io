@@ -1,3 +1,2 @@
-# joelsyc.github.io
-
-This static website is a front for my Github projects.
+# Joel's Hub for Stuff
+You have stumbled upon my page for showing my projects. 
